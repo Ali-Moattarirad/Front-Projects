@@ -1,0 +1,84 @@
+.articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.articles .article-content {
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* overflow: hidden; */
+}
+.articles .article-content .article-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.articles .article-content .article-container .article-card {
+  overflow: hidden;
+  width: 460px;
+  max-height: 200px;
+  min-height: 100px;
+  background-color: #fff;
+  box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+  border-radius: 15px;
+  border: 3px solid #d4bdac;
+  margin: 10px;
+}
+.articles .article-content .article-container .article-card #article-title {
+  font-family: IRANSansWeb;
+  font-size: 15px;
+  padding-right: 40px;
+  padding-top: 6px;
+}
+.articles
+  .article-content
+  .article-container
+  .article-card
+  .article-writer
+  img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.articles .article-content .article-container .article-card .article-writer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 2.5px;
+  padding-right: 50px;
+}
+.articles
+  .article-content
+  .article-container
+  .article-card
+  #article-description {
+  font-family: IRANSans;
+  font-size: 13px;
+  padding-right: 83px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.articles
+  .article-content
+  .article-container
+  .article-card
+  .article-writer
+  #article-writerName {
+  padding-right: 10px;
+}
+.articles
+  .article-content
+  .article-container
+  .article-card
+  .article-writer
+  #article-writerName,
+#article-publishTime {
+  font-family: WeblogmaYekan;
+  font-size: 13px;
+}

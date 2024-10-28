@@ -1,0 +1,238 @@
+.slider-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.slider-content .slider-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 77%;
+}
+.slider-content .slider-container .card-slider {
+  background-color: #f5f5f5;
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 2px solid #fd8b51;
+  box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+}
+.slider-content .slider-container #card4 {
+  height: 330px;
+  width: 500px;
+}
+.slider-content .slider-container #card5 {
+  width: 430px;
+  height: 280px;
+  position: relative;
+}
+.slider-content .slider-container #card6 {
+  width: 420px;
+  height: 270px;
+  position: relative;
+}
+.slider-content .slider-container #card7 {
+  width: 410px;
+  height: 260px;
+  position: relative;
+}
+.slider-content .slider-container #card3 {
+  width: 430px;
+  height: 280px;
+  position: relative;
+}
+.slider-content .slider-container #card2 {
+  width: 420px;
+  height: 270px;
+  position: relative;
+}
+.slider-content .slider-container #card1 {
+  width: 410px;
+  height: 260px;
+  position: relative;
+}
+/* .slider-content .slider-container #card3 img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+} */
+.slider-content .slider-container #card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6,
+#card7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.slider-content .slider-container #card4 img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card4 h5 {
+  padding-top: 10px;
+}
+.slider-content .slider-container #card4 p {
+  padding-top: 10px;
+  font-size: 0.55em;
+}
+.slider-content .slider-container #card4 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.slider-content .slider-container #card4 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card5 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card5 h6 {
+  padding-top: 10px;
+}
+.slider-content .slider-container #card5 p {
+  padding-top: 10px;
+  font-size: 0.52em;
+}
+.slider-content .slider-container #card5 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11em;
+}
+.slider-content .slider-container #card5 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card3 img {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card3 h6 {
+  padding-top: 10px;
+}
+.slider-content .slider-container #card3 p {
+  padding-top: 10px;
+  font-size: 0.52em;
+}
+.slider-content .slider-container #card3 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11em;
+}
+.slider-content .slider-container #card3 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card6 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card6 h6 {
+  padding-top: 10px;
+  font-size: 0.55em;
+}
+.slider-content .slider-container #card6 p {
+  padding-top: 10px;
+  font-size: 0.45em;
+}
+.slider-content .slider-container #card6 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11em;
+}
+.slider-content .slider-container #card6 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card2 img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card2 h6 {
+  padding-top: 10px;
+  font-size: 0.55em;
+}
+.slider-content .slider-container #card2 p {
+  padding-top: 10px;
+  font-size: 0.45em;
+}
+.slider-content .slider-container #card2 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11em;
+}
+.slider-content .slider-container #card2 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card1 img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card1 h6 {
+  padding-top: 10px;
+}
+.slider-content .slider-container #card1 p {
+  padding-top: 10px;
+  font-size: 0.45em;
+}
+.slider-content .slider-container #card1 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10.5em;
+}
+.slider-content .slider-container #card1 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}
+.slider-content .slider-container #card7 img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.slider-content .slider-container #card7 h6 {
+  padding-top: 10px;
+}
+.slider-content .slider-container #card7 p {
+  padding-top: 10px;
+  font-size: 0.45em;
+}
+.slider-content .slider-container #card7 .purchase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 10.5em;
+}
+.slider-content .slider-container #card7 .purchase-section .purchase {
+  height: 25px;
+  width: 25px;
+}

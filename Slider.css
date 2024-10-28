@@ -1,0 +1,95 @@
+.Slider-Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 2.5em;
+}
+.Sub-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 1.5em;
+}
+.Slider {
+  background: #26032d;
+  background: -moz-linear-gradient(to left, #26032d 0%, #f7a068 100%);
+  background: -webkit-linear-gradient(to left, #26032d 0%, #f7a068 100%);
+  background: linear-gradient(to left, #26032d 0%, #f7a068 100%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 11em;
+  width: 52em;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: 0px 5px 20px 0px;
+}
+.Sub-Container .Slider2 {
+  background: #b1455f;
+  background: -moz-linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  background: -webkit-linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  background: linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  height: 5em;
+  width: 20em;
+  border-radius: 30px 30px 0px;
+  box-shadow: 0px 5px 20px 0px;
+}
+.Sub-Container .Slider3 {
+  background: #b1455f;
+  background: -moz-linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  background: -webkit-linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  background: linear-gradient(to right, #b1455f 0%, #f59e68 100%);
+  height: 5em;
+  width: 20em;
+  border-radius: 30px 0px 0px 30px;
+  box-shadow: 0px 5px 20px 0px;
+}
+.Slider-Container .Slider p {
+  color: white;
+  font-size: 0.9em;
+  padding: 30px;
+}
+.Slider-Container .Slider p span {
+  color: #069ddb;
+  font-size: 1.3em;
+}
+.Slider-Container .Slider img {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 30px;
+}
+.Separator {
+  padding-top: 3em;
+}
+.Separator .Sp1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Separator .Sp1 #Red-Dot {
+  width: 25px;
+  height: 25px;
+  margin-right: 11em;
+}
+.Separator .Sp1 #Pic-more {
+  margin-right: auto;
+  margin-left: 0.5em;
+  height: 20px;
+  cursor: pointer;
+}
+.Separator .Sp1 #more {
+  font-size: 0.8em;
+  margin-left: 14.3em;
+  cursor: pointer;
+}
+.Separator .Sp2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Separator .Sp2 .Line {
+  border: 1px solid red;
+  width: 77%;
+}
